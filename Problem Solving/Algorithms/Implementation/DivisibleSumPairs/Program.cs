@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System;
+﻿using System;
 
 class Solution
 {
@@ -22,21 +21,8 @@ class Solution
 
     static void Main(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        int[] array = { 1, 3, 2, 6, 1, 2 };
 
-        string[] nk = Console.ReadLine().Split(' ');
-
-        int n = Convert.ToInt32(nk[0]);
-
-        int k = Convert.ToInt32(nk[1]);
-
-        int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
-        int result = divisibleSumPairs(n, k, ar);
-        Console.WriteLine(result);
-
-        textWriter.WriteLine(result);
-
-        textWriter.Flush();
-        textWriter.Close();
+        Console.WriteLine(divisibleSumPairs(6, 3, array));
     }
 }

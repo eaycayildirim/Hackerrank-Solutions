@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System;
+﻿using System;
 
 class Solution
 {
@@ -24,24 +23,15 @@ class Solution
                 count2++;
             }
         }
+
         int[] array = new int[2] { count1, count2 };
         return array;
-
     }
 
     static void Main(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        int[] scores = { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
 
-        int n = Convert.ToInt32(Console.ReadLine());
-
-        int[] scores = Array.ConvertAll(Console.ReadLine().Split(' '), scoresTemp => Convert.ToInt32(scoresTemp));
-        
-        int[] result = breakingRecords(scores);
-
-        textWriter.WriteLine(string.Join(" ", result));
-
-        textWriter.Flush();
-        textWriter.Close();
+        Console.Write(String.Join(" ", breakingRecords(scores)));
     }
 }
