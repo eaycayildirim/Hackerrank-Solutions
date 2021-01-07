@@ -26,8 +26,6 @@ class Solution
 
     static void Main(string[] args)
     {
-        int n = Convert.ToInt32(Console.ReadLine());
-
-        staircase(n);
+        staircase(6);
     }
 }

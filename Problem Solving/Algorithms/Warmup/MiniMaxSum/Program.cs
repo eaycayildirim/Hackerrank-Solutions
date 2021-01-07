@@ -23,7 +23,8 @@ class Solution
 
     static void Main(string[] args)
     {
-        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+        int[] arr = { 1, 2, 3, 4, 5 };
+
         miniMaxSum(arr);
     }
 }

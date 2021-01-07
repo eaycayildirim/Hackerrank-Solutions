@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System;
 
 class Result
@@ -23,22 +21,8 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        List<List<int>> list = new List<List<int>>() { new List<int> { 11, 2, 4 }, new List<int> { 4, 5, 6 }, new List<int> { 10, 8, -12 } } ;
 
-        int n = Convert.ToInt32(Console.ReadLine().Trim());
-
-        List<List<int>> arr = new List<List<int>>();
-
-        for (int i = 0; i < n; i++)
-        {
-            arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList());
-        }
-
-        int result = Result.diagonalDifference(arr);
-
-        textWriter.WriteLine(result);
-
-        textWriter.Flush();
-        textWriter.Close();
+        Console.WriteLine(Result.diagonalDifference(list));
     }
 }

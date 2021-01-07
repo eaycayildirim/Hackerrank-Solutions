@@ -28,15 +28,8 @@ class Solution
     }
     static void Main(string[] args)
     {
-        TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        string s = "07:05:45PM";
 
-        string s = Console.ReadLine();
-
-        string result = timeConversion(s);
-
-        tw.WriteLine(result);
-
-        tw.Flush();
-        tw.Close();
+        Console.WriteLine(timeConversion(s));
     }
 }

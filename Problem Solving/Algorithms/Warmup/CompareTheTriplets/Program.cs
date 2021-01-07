@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System;
 
 class Solution
@@ -23,17 +21,10 @@ class Solution
 
     static void Main(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        List<int> a = new List<int>() { 5, 6, 7 };
 
-        List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
+        List<int> b = new List<int>() { 3, 6, 10 };
 
-        List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
-
-        List<int> result = compareTriplets(a, b);
-
-        textWriter.WriteLine(String.Join(" ", result));
-
-        textWriter.Flush();
-        textWriter.Close();
+        compareTriplets(a, b).ForEach(i => Console.Write("{0} ", i));
     }
 }

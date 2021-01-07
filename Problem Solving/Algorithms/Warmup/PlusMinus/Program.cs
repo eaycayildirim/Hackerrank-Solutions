@@ -27,9 +27,8 @@ class Solution
 
     static void Main(string[] args)
     {
-        int n = Convert.ToInt32(Console.ReadLine());
+        int[] arr = { -4, 3, -9, 0, 4, 1 };
 
-        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
         plusMinus(arr);
     }
 }

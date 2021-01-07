@@ -32,6 +32,7 @@ class Solution
 
         int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
         int result = divisibleSumPairs(n, k, ar);
+        Console.WriteLine(result);
 
         textWriter.WriteLine(result);
 
