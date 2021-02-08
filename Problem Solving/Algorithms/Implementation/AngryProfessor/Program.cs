@@ -18,8 +18,8 @@ class Solution
 
     static void Main(string[] args)
     {
-        int[] a = { -1, -3, 4, 2 };
+        int[] array = { -1, -3, 4, 2 };
 
-        Console.WriteLine(angryProfessor(3, a));
+        Console.WriteLine(angryProfessor(3, array));
     }
 }

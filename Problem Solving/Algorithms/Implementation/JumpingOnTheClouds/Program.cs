@@ -2,27 +2,27 @@
 
 class Solution
 {
-    static int jumpingOnClouds(int[] c, int k)
+    static int jumpingOnClouds(int[] clouds)
     {
-        int energy = 100;
-        int index = 0;
-        do
+        int jumps = 0;
+
+        for (int i = 0; i < clouds.Length - 1; i++)
         {
-            if (c[(index + k) % c.Length] == 1)
-                energy -= 2;
-            energy--;
-            index += k;
-            if (index >= c.Length)
-                index = index % c.Length;
-
-        } while (index != 0);
-
-        return energy;
+            if (i + 2 < clouds.Length && clouds[i + 2] == 0)
+            {
+                i++;
+                jumps++;
+            }
+            else
+                jumps++;
+        }
+        return jumps;
     }
 
     static void Main(string[] args)
     {
-        int[] c = { 0, 0, 1, 0, 0, 1, 1, 0 };
-        Console.WriteLine(jumpingOnClouds(c, 2));
+        int[] clouds = { 0, 0, 1, 0, 0, 1, 0 };
+
+        Console.WriteLine(jumpingOnClouds(clouds));
     }
 }

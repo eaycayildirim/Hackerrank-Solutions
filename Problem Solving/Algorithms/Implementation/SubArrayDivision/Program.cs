@@ -20,8 +20,8 @@ class Solution
     }
     static void Main(string[] args)
     {
-        List<int> s = new List<int>() { 1, 2, 1, 3, 2 };
+        List<int> list = new List<int>() { 1, 2, 1, 3, 2 };
 
-        Console.WriteLine(birthday(s, 3, 2));
+        Console.WriteLine(birthday(list, 3, 2));
     }
 }

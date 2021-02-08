@@ -17,8 +17,8 @@ class Solution
     }
     static void Main(string[] args)
     {
-        int[] h = { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
+        int[] array = { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
 
-        Console.WriteLine(designerPdfViewer(h, "abc"));
+        Console.WriteLine(designerPdfViewer(array, "abc"));
     }
 }

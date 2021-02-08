@@ -32,8 +32,8 @@ class Solution
 
     static void Main(string[] args)
     {
-        int[] arr = { 5, 4, 4, 2, 2, 8 };
+        int[] array = { 5, 4, 4, 2, 2, 8 };
 
-        Array.ForEach(cutTheSticks(arr), Console.WriteLine);
+        Array.ForEach(cutTheSticks(array), Console.WriteLine);
     }
 }
