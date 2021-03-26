@@ -5,8 +5,8 @@ class Result
 {
     public static List<int> gradingStudents(List<int> grades)
     {
-        int[] next_multiples = new int[grades.Count];
-        List<int> final_grades = new List<int>(grades);
+        int[] nextMultiples = new int[grades.Count];
+        List<int> finalGrades = new List<int>(grades);
 
         for (int i = 0; i < grades.Count; i++)
         {
@@ -14,22 +14,22 @@ class Result
             {
                 while ((grades[i] + j) % 5 == 0)
                 {
-                    next_multiples[i] = grades[i] + j;
+                    nextMultiples[i] = grades[i] + j;
                     break;
                 }
             }
             if (grades[i] >= 38)
             {
-                if ((next_multiples[i] - grades[i]) < 3)
-                    final_grades[i] = next_multiples[i];
+                if ((nextMultiples[i] - grades[i]) < 3)
+                    finalGrades[i] = nextMultiples[i];
                 else
-                    final_grades[i] = grades[i];
+                    finalGrades[i] = grades[i];
             }
 
             else
-                final_grades[i] = grades[i];
+                finalGrades[i] = grades[i];
         }
-        return final_grades;
+        return finalGrades;
     }
 }
 class Solution

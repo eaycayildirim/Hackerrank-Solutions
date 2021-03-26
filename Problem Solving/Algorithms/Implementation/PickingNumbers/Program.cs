@@ -7,11 +7,10 @@ namespace PickingNumbers
     {
         public static int pickingNumbers(List<int> a)
         {
-            int count_numbers = 0;
-            int numbers = 0;
+            int count = 0;
             for (int i = 0; i < a.Count; i++)
             {
-                numbers = 0;
+                int numbers = 0;
                 for (int j = 0; j < a.Count; j++)
                 {
                     if (a[i] - a[j] == 0 || a[i] - a[j] == 1)
@@ -19,10 +18,10 @@ namespace PickingNumbers
                         numbers++;
                     }
                 }
-                if (numbers > count_numbers)
-                    count_numbers = numbers;
+                if (numbers > count)
+                    count = numbers;
             }
-            return count_numbers;
+            return count;
         }
         static void Main(string[] args)
         {

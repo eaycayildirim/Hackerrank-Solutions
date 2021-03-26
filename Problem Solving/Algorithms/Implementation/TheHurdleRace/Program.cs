@@ -4,15 +4,15 @@ class Solution
 {
     static int hurdleRace(int k, int[] height)
     {
-        int biggest_height = 0;
+        int biggestHeight = 0;
         int result = 0;
         for (int i = 0; i < height.Length; i++)
         {
-            if (height[i] > biggest_height)
-                biggest_height = height[i];
+            if (height[i] > biggestHeight)
+                biggestHeight = height[i];
         }
-        result = biggest_height - k;
-        if (k > biggest_height)
+        result = biggestHeight - k;
+        if (k > biggestHeight)
             return 0;
         else
             return result;

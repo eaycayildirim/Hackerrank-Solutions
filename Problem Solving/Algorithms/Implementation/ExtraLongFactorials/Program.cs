@@ -5,13 +5,13 @@ class Solution
 {
     static void extraLongFactorials(int n)
     {
-        BigInteger big_integer = new BigInteger(1);
+        BigInteger bigInteger = new BigInteger(1);
         while (n != 1)
         {
-            big_integer *= n;
+            bigInteger *= n;
             n--;
         }
-        Console.WriteLine(big_integer);
+        Console.WriteLine(bigInteger);
     }
 
     static void Main(string[] args)

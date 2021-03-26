@@ -5,15 +5,15 @@ class Solution
     static int viralAdvertising(int n)
     {
         int people = 5;
-        int cumulative_likes = 0;
+        int cumulativeLikes = 0;
 
         for (int i = 0; i < n; i++)
         {
             int likes = people / 2;
             people = likes * 3;
-            cumulative_likes += likes;
+            cumulativeLikes += likes;
         }
-        return cumulative_likes;
+        return cumulativeLikes;
     }
 
     static void Main(string[] args)

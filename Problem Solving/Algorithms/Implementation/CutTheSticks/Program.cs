@@ -6,7 +6,7 @@ class Solution
     public static int[] cutTheSticks(int[] arr)
     {
         SortedDictionary<int, int> dictionary = new SortedDictionary<int, int>();
-        List<int> sticks_cut = new List<int>();
+        List<int> cuttedSticks = new List<int>();
 
         for (int i = 0; i < arr.Length; i++)
         {
@@ -23,11 +23,11 @@ class Solution
 
         foreach (var items in dictionary)
         {
-            sticks_cut.Add(number);
+            cuttedSticks.Add(number);
             number -= items.Value;
         }
 
-        return sticks_cut.ToArray();
+        return cuttedSticks.ToArray();
     }
 
     static void Main(string[] args)

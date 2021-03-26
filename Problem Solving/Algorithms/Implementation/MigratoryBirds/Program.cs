@@ -7,17 +7,17 @@ namespace MigratoryBirds
     {
         static int migratoryBirds(List<int> arr)
         {
-            Dictionary<int, int> birds_dictionary = new Dictionary<int, int>();
+            Dictionary<int, int> birdsDictionary = new Dictionary<int, int>();
             for (int i = 0; i < arr.Count; i++)
             {
-                if (birds_dictionary.ContainsKey(arr[i]))
-                    birds_dictionary[arr[i]]++;
+                if (birdsDictionary.ContainsKey(arr[i]))
+                    birdsDictionary[arr[i]]++;
                 else
-                    birds_dictionary.Add(arr[i], 1);
+                    birdsDictionary.Add(arr[i], 1);
             }
 
             KeyValuePair<int, int> max = new KeyValuePair<int, int>();
-            foreach (var kvp in birds_dictionary)
+            foreach (var kvp in birdsDictionary)
             {
                 if (kvp.Value > max.Value)
                     max = kvp;

@@ -4,21 +4,21 @@ class Solution
 {
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges)
     {
-        int number_apples = 0;
-        int number_oranges = 0;
+        int numberOfApples = 0;
+        int numberOfOranges = 0;
 
         for (int i = 0; i < apples.Length; i++)
         {
             if ((a + apples[i]) >= s && (a + apples[i]) <= t)
-                number_apples++;
+                numberOfApples++;
 
         }
         for (int i = 0; i < oranges.Length; i++)
         {
             if ((b + oranges[i]) >= s && (b + oranges[i]) <= t)
-                number_oranges++;
+                numberOfOranges++;
         }
-        Console.WriteLine(number_apples + "\n" + number_oranges);
+        Console.WriteLine(numberOfApples + "\n" + numberOfOranges);
     }
 
     static void Main(string[] args)

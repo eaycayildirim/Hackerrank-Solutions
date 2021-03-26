@@ -5,14 +5,14 @@ class Solution
     static int designerPdfViewer(int[] h, string word)
     {
         int result = 0;
-        int max_height = 0;
+        int maxHeight = 0;
         char[] array = word.ToCharArray();
         for (int i = 0; i < array.Length; i++)
         {
-            if (h[array[i] - 'a'] > max_height)
-                max_height = h[array[i] - 'a'];
+            if (h[array[i] - 'a'] > maxHeight)
+                maxHeight = h[array[i] - 'a'];
         }
-        result = max_height * array.Length;
+        result = maxHeight * array.Length;
         return result;
     }
     static void Main(string[] args)

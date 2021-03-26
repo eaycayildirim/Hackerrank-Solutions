@@ -5,18 +5,18 @@ class Solution
 {
     static void bonAppetit(List<int> bill, int k, int b)
     {
-        int total_bill = 0;
+        int totalBill = 0;
         for (int i = 0; i < bill.Count; i++)
         {
             if (i == k)
                 continue;
-            total_bill += bill[i];
+            totalBill += bill[i];
 
         }
-        if (b == total_bill / 2)
+        if (b == totalBill / 2)
             Console.WriteLine("Bon Appetit");
         else
-            Console.WriteLine(b - (total_bill / 2));
+            Console.WriteLine(b - (totalBill / 2));
     }
 
     static void Main(string[] args)

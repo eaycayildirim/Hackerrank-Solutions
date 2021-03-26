@@ -6,15 +6,15 @@ namespace CircularArrayRotation
     {
         static int[] circularArrayRotation(int[] a, int k, int[] queries)
         {
-            int[] new_array = new int[a.Length];
+            int[] newArray = new int[a.Length];
             for (int i = 0; i < a.Length; i++)
             {
-                new_array[(i + k) % a.Length] = a[i];
+                newArray[(i + k) % a.Length] = a[i];
             }
 
             for (int i = 0; i < queries.Length; i++)
             {
-                queries[i] = new_array[queries[i]];
+                queries[i] = newArray[queries[i]];
             }
             return queries;
         }

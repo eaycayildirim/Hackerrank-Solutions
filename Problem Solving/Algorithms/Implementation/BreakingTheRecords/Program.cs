@@ -4,22 +4,22 @@ class Solution
 {
     static int[] breakingRecords(int[] scores)
     {
-        int highest_score = scores[0];
-        int least_score = scores[0];
+        int highestScore = scores[0];
+        int leastScore = scores[0];
         int count1 = 0;
         int count2 = 0;
 
         for (int i = 1; i < scores.Length; i++)
         {
-            if (scores[i] > highest_score)
+            if (scores[i] > highestScore)
             {
-                highest_score = scores[i];
+                highestScore = scores[i];
                 count1++;
             }
 
-            else if (scores[i] < least_score)
+            else if (scores[i] < leastScore)
             {
-                least_score = scores[i];
+                leastScore = scores[i];
                 count2++;
             }
         }
