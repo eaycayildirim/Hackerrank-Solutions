@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularArrayRotation", "Ci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualizeTheArray", "EqualizeTheArray\EqualizeTheArray.csproj", "{27769916-19ED-42FE-9223-7F4F0F777E57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloweenSale", "HalloweenSale\HalloweenSale.csproj", "{FBF58EC7-C826-4A81-BB0F-125503B072FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{27769916-19ED-42FE-9223-7F4F0F777E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27769916-19ED-42FE-9223-7F4F0F777E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27769916-19ED-42FE-9223-7F4F0F777E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
