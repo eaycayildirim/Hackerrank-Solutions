@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualizeTheArray", "Equaliz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloweenSale", "HalloweenSale\HalloweenSale.csproj", "{FBF58EC7-C826-4A81-BB0F-125503B072FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLane", "ServiceLane\ServiceLane.csproj", "{53EC578C-060A-40D9-8738-6B9E3474D599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBF58EC7-C826-4A81-BB0F-125503B072FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EC578C-060A-40D9-8738-6B9E3474D599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EC578C-060A-40D9-8738-6B9E3474D599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EC578C-060A-40D9-8738-6B9E3474D599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EC578C-060A-40D9-8738-6B9E3474D599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
