@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignerPDFViewer", "Design
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtopianTree", "UtopianTree\UtopianTree.csproj", "{299AF3E1-C241-4C20-8CB4-F24CCF8C390D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngryProfessor", "AngryProfessor\AngryProfessor.csproj", "{23FE3FBB-2948-4D27-8FB3-67BD637B5854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angry Professor", "AngryProfessor\Angry Professor.csproj", "{23FE3FBB-2948-4D27-8FB3-67BD637B5854}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautifulDaysAtTheMovies", "BeautifulDaysAtTheMovies\BeautifulDaysAtTheMovies.csproj", "{FDB05344-EAEE-4783-9F09-90C0673B200D}"
 EndProject
