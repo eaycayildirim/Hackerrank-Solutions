@@ -3,91 +3,91 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradingStudents", "GradingStudents\GradingStudents.csproj", "{01C1FFF7-1858-482B-8411-E2AC6A651A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grading Students", "GradingStudents\Grading Students.csproj", "{01C1FFF7-1858-482B-8411-E2AC6A651A31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleAndOrange", "AppleAndOrange\AppleAndOrange.csproj", "{17BD94DC-6DED-40BF-A2D3-70FBB97D6223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apple and Orange", "AppleAndOrange\Apple and Orange.csproj", "{17BD94DC-6DED-40BF-A2D3-70FBB97D6223}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{C5ABE8C7-60DF-4979-820D-0EB3DA8FAAE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number Line Jumps", "NumberLineJumps\Number Line Jumps.csproj", "{C5ABE8C7-60DF-4979-820D-0EB3DA8FAAE1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{ACA52C54-110A-4C24-9EC1-4CAD7C8B145D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Breaking the Records", "BreakingTheRecords\Breaking the Records.csproj", "{ACA52C54-110A-4C24-9EC1-4CAD7C8B145D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubArrayDivision", "SubArrayDivision\SubArrayDivision.csproj", "{06CBA149-15EF-41F6-83E4-EC03EC61733A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sub Array Division", "SubArrayDivision\Sub Array Division.csproj", "{06CBA149-15EF-41F6-83E4-EC03EC61733A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{3B34CBAF-C5E8-40F8-890B-CC8171B63CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divisible Sum Pairs", "DivisibleSumPairs\Divisible Sum Pairs.csproj", "{3B34CBAF-C5E8-40F8-890B-CC8171B63CFA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayOfTheProgrammer", "DayOfTheProgrammer\DayOfTheProgrammer.csproj", "{D1AB7CA4-7F51-4C16-9A73-5C6B1C933A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day of the Programmer", "DayOfTheProgrammer\Day of the Programmer.csproj", "{D1AB7CA4-7F51-4C16-9A73-5C6B1C933A79}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingValleys", "CountingValley\CountingValleys.csproj", "{ACD3F23E-B6D7-4107-813C-8DE6E033D7E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counting Valleys", "CountingValley\Counting Valleys.csproj", "{ACD3F23E-B6D7-4107-813C-8DE6E033D7E6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawingBook", "DrawingBook\DrawingBook.csproj", "{971A9558-7B84-40CA-A75A-81C5132D1082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drawing Book", "DrawingBook\Drawing Book.csproj", "{971A9558-7B84-40CA-A75A-81C5132D1082}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillDivision", "BillDivision\BillDivision.csproj", "{AC297983-DDB9-456D-8823-E035823CED9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bill Division", "BillDivision\Bill Division.csproj", "{AC297983-DDB9-456D-8823-E035823CED9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElectronicsShop", "ElectronicsShop\ElectronicsShop.csproj", "{00A31331-B572-4D8D-9D18-3B52524E0246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Electronics Shop", "ElectronicsShop\Electronics Shop.csproj", "{00A31331-B572-4D8D-9D18-3B52524E0246}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatsAndAMouse", "CatsAndAMouse\CatsAndAMouse.csproj", "{D3A70F45-50B2-4250-A066-992252325028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cats and a Mouse", "CatsAndAMouse\Cats and a Mouse.csproj", "{D3A70F45-50B2-4250-A066-992252325028}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheHurdleRace", "TheHurdleRace\TheHurdleRace.csproj", "{C390A2BA-74AF-46F1-A1D6-609467E530A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Hurdle Race", "TheHurdleRace\The Hurdle Race.csproj", "{C390A2BA-74AF-46F1-A1D6-609467E530A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignerPDFViewer", "DesignerPDFViewer\DesignerPDFViewer.csproj", "{99F76F03-22FF-4D29-86F6-B0D4EC613923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Designer PDF Viewer", "DesignerPDFViewer\Designer PDF Viewer.csproj", "{99F76F03-22FF-4D29-86F6-B0D4EC613923}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtopianTree", "UtopianTree\UtopianTree.csproj", "{299AF3E1-C241-4C20-8CB4-F24CCF8C390D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utopian Tree", "UtopianTree\Utopian Tree.csproj", "{299AF3E1-C241-4C20-8CB4-F24CCF8C390D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angry Professor", "AngryProfessor\Angry Professor.csproj", "{23FE3FBB-2948-4D27-8FB3-67BD637B5854}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautifulDaysAtTheMovies", "BeautifulDaysAtTheMovies\BeautifulDaysAtTheMovies.csproj", "{FDB05344-EAEE-4783-9F09-90C0673B200D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beautiful Days at the Movies", "BeautifulDaysAtTheMovies\Beautiful Days at the Movies.csproj", "{FDB05344-EAEE-4783-9F09-90C0673B200D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViralAdvertising", "ViralAdvertising\ViralAdvertising.csproj", "{53240EAC-6581-4458-AB0F-D4A5B8DB7AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viral Advertising", "ViralAdvertising\Viral Advertising.csproj", "{53240EAC-6581-4458-AB0F-D4A5B8DB7AB7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaveThePrisoner", "SaveThePrisoner\SaveThePrisoner.csproj", "{807519E0-5A65-47F1-ACE5-5360C3FD521C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Save the Prisoner", "SaveThePrisoner\Save the Prisoner.csproj", "{807519E0-5A65-47F1-ACE5-5360C3FD521C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheClouds", "JumpingOnTheClouds\JumpingOnTheClouds.csproj", "{B81C7757-C9A5-43C5-AB6E-C594976998D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jumping on the Clouds", "JumpingOnTheClouds\Jumping on the Clouds.csproj", "{B81C7757-C9A5-43C5-AB6E-C594976998D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindDigits", "FindDigits\FindDigits.csproj", "{77F09B64-B5AA-4A2C-BB39-C5A0A67DEA1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Digits", "FindDigits\Find Digits.csproj", "{77F09B64-B5AA-4A2C-BB39-C5A0A67DEA1B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraLongFactorials", "ExtraLongFactorials\ExtraLongFactorials.csproj", "{A26052C7-8684-4B3A-BD67-A7FAB1DECC36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extra Long Factorials", "ExtraLongFactorials\Extra Long Factorials.csproj", "{A26052C7-8684-4B3A-BD67-A7FAB1DECC36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryFine", "LibraryFine\LibraryFine.csproj", "{9259C8AC-D7C8-4FD3-9AB3-2DDFF6F3A2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library Fine", "LibraryFine\Library Fine.csproj", "{9259C8AC-D7C8-4FD3-9AB3-2DDFF6F3A2CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CutTheSticks", "CutTheSticks\CutTheSticks.csproj", "{89F74778-AB8B-45F1-958B-7CBD59C171E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cut the Sticks", "CutTheSticks\Cut the Sticks.csproj", "{89F74778-AB8B-45F1-958B-7CBD59C171E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaumAndBday", "TaumAndBday\TaumAndBday.csproj", "{54267753-AEB2-4F9B-B377-6C96D70F206D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taum and Bday", "TaumAndBday\Taum and Bday.csproj", "{54267753-AEB2-4F9B-B377-6C96D70F206D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumDistances", "MinimumDistances\MinimumDistances.csproj", "{DDDFCFF6-09B9-48D4-883E-E13743AF15EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum Distances", "MinimumDistances\Minimum Distances.csproj", "{DDDFCFF6-09B9-48D4-883E-E13743AF15EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChocolateFeast", "ChocolateFeast\ChocolateFeast.csproj", "{B890AE37-BAAE-4162-B241-0D6B8887EDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chocolate Feast", "ChocolateFeast\Chocolate Feast.csproj", "{B890AE37-BAAE-4162-B241-0D6B8887EDFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlatlandSpaceStations", "FlatlandSpaceStations\FlatlandSpaceStations.csproj", "{CF5F0331-E4B7-411C-B971-9F62442A3388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatland Space Stations", "FlatlandSpaceStations\Flatland Space Stations.csproj", "{CF5F0331-E4B7-411C-B971-9F62442A3388}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesByMatch", "SalesByMatch\SalesByMatch.csproj", "{75CF5B31-F7B9-43AC-9CCF-E80C7B672448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales by Match", "SalesByMatch\Sales by Match.csproj", "{75CF5B31-F7B9-43AC-9CCF-E80C7B672448}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PickingNumbers", "PickingNumbers\PickingNumbers.csproj", "{02F7ACB1-4B48-4537-B6DA-513D397A9EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picking Numbers", "PickingNumbers\Picking Numbers.csproj", "{02F7ACB1-4B48-4537-B6DA-513D397A9EAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceEquation", "SequenceEquation\SequenceEquation.csproj", "{B026D730-ED1D-4E8F-8AD8-4A4615A4CD38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequence Equation", "SequenceEquation\Sequence Equation.csproj", "{B026D730-ED1D-4E8F-8AD8-4A4615A4CD38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheCloudsRevisited", "JumpingOnTheCloudsRevisited\JumpingOnTheCloudsRevisited.csproj", "{51EF7748-A31A-4B19-A8A5-4DEB6E960593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jumping on the Clouds Revisited", "JumpingOnTheCloudsRevisited\Jumping on the Clouds Revisited.csproj", "{51EF7748-A31A-4B19-A8A5-4DEB6E960593}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModifiedKaprekarNumbers", "ModifiedKaprekarNumbers\ModifiedKaprekarNumbers.csproj", "{9C5E5BB7-099E-468B-91B0-C2068C84A383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modified Kaprekar Numbers", "ModifiedKaprekarNumbers\Modified Kaprekar Numbers.csproj", "{9C5E5BB7-099E-468B-91B0-C2068C84A383}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LisasWorkbook", "LisasWorkbook\LisasWorkbook.csproj", "{13E80B1C-E04F-4CC9-97EA-093E4B6EDD4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lisas Workbook", "LisasWorkbook\Lisas Workbook.csproj", "{13E80B1C-E04F-4CC9-97EA-093E4B6EDD4F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FairRations", "FairRations\FairRations.csproj", "{1E481265-A003-4ED3-BEBD-C3A681FFD86C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fair Rations", "FairRations\Fair Rations.csproj", "{1E481265-A003-4ED3-BEBD-C3A681FFD86C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{FF550045-BD49-45EF-81E8-9484705D2BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migratory Birds", "MigratoryBirds\Migratory Birds.csproj", "{FF550045-BD49-45EF-81E8-9484705D2BE9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.csproj", "{4968BBEA-1420-4E43-8D2E-164C162C5B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circular Array Rotation", "CircularArrayRotation\Circular Array Rotation.csproj", "{4968BBEA-1420-4E43-8D2E-164C162C5B49}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualizeTheArray", "EqualizeTheArray\EqualizeTheArray.csproj", "{27769916-19ED-42FE-9223-7F4F0F777E57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equalize the Array", "EqualizeTheArray\Equalize the Array.csproj", "{27769916-19ED-42FE-9223-7F4F0F777E57}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalloweenSale", "HalloweenSale\HalloweenSale.csproj", "{FBF58EC7-C826-4A81-BB0F-125503B072FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halloween Sale", "HalloweenSale\Halloween Sale.csproj", "{FBF58EC7-C826-4A81-BB0F-125503B072FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLane", "ServiceLane\ServiceLane.csproj", "{53EC578C-060A-40D9-8738-6B9E3474D599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service Lane", "ServiceLane\Service Lane.csproj", "{53EC578C-060A-40D9-8738-6B9E3474D599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrangeCounter", "StrangeCounter\StrangeCounter.csproj", "{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strange Counter", "StrangeCounter\Strange Counter.csproj", "{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendAndDelete", "AppendAndDelete\AppendAndDelete.csproj", "{0E8985A3-8B42-4EAB-B852-024D9673A8AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Append and Delete", "AppendAndDelete\Append and Delete.csproj", "{0E8985A3-8B42-4EAB-B852-024D9673A8AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACMICPCTeam", "ACMICPCTeam\ACMICPCTeam.csproj", "{A8A30C80-0950-42CF-83F8-EEDAE07BCB65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM ICPC Team", "ACMICPCTeam\ACM ICPC Team.csproj", "{A8A30C80-0950-42CF-83F8-EEDAE07BCB65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
