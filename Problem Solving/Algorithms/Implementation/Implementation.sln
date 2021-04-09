@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLane", "ServiceLane\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrangeCounter", "StrangeCounter\StrangeCounter.csproj", "{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendAndDelete", "AppendAndDelete\AppendAndDelete.csproj", "{0E8985A3-8B42-4EAB-B852-024D9673A8AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8985A3-8B42-4EAB-B852-024D9673A8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8985A3-8B42-4EAB-B852-024D9673A8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8985A3-8B42-4EAB-B852-024D9673A8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8985A3-8B42-4EAB-B852-024D9673A8AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
