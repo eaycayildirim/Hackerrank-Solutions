@@ -73,15 +73,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LisasWorkbook", "LisasWorkb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FairRations", "FairRations\FairRations.csproj", "{1E481265-A003-4ED3-BEBD-C3A681FFD86C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{FF550045-BD49-45EF-81E8-9484705D2BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{FF550045-BD49-45EF-81E8-9484705D2BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.csproj", "{4968BBEA-1420-4E43-8D2E-164C162C5B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.csproj", "{4968BBEA-1420-4E43-8D2E-164C162C5B49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualizeTheArray", "EqualizeTheArray\EqualizeTheArray.csproj", "{27769916-19ED-42FE-9223-7F4F0F777E57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualizeTheArray", "EqualizeTheArray\EqualizeTheArray.csproj", "{27769916-19ED-42FE-9223-7F4F0F777E57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloweenSale", "HalloweenSale\HalloweenSale.csproj", "{FBF58EC7-C826-4A81-BB0F-125503B072FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HalloweenSale", "HalloweenSale\HalloweenSale.csproj", "{FBF58EC7-C826-4A81-BB0F-125503B072FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLane", "ServiceLane\ServiceLane.csproj", "{53EC578C-060A-40D9-8738-6B9E3474D599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLane", "ServiceLane\ServiceLane.csproj", "{53EC578C-060A-40D9-8738-6B9E3474D599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrangeCounter", "StrangeCounter\StrangeCounter.csproj", "{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{53EC578C-060A-40D9-8738-6B9E3474D599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53EC578C-060A-40D9-8738-6B9E3474D599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53EC578C-060A-40D9-8738-6B9E3474D599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF6A826-24FA-4B5F-ACD4-B3333E74384B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
