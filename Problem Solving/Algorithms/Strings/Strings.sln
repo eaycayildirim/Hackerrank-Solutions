@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caesar Cipher", "Caesar Cip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars Exploration", "Mars Exploration\Mars Exploration.csproj", "{781B73F6-323C-448C-A71C-B218BEE874C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank In A String", "HackerRank In A String\HackerRank In A String.csproj", "{9D5EDF29-B8BD-4820-893D-B65A640E6EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank in a String", "HackerRank in a String\HackerRank in a String.csproj", "{9D5EDF29-B8BD-4820-893D-B65A640E6EC7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangrams", "Pangrams\Pangrams.csproj", "{D487C4A5-6ED7-4D0B-8473-2F38A96EC142}"
 EndProject
@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Strings", "Two Strings\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Construction", "String Construction\String Construction.csproj", "{83962D54-7ED4-4261-9CC1-82F8D9B9302D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weighted Uniform Strings", "Weighted Uniform Strings\Weighted Uniform Strings.csproj", "{A5C18713-F816-49C6-8420-A86CDAC9F396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weighted Uniform Strings", "Weighted Uniform Strings\Weighted Uniform Strings.csproj", "{A5C18713-F816-49C6-8420-A86CDAC9F396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
