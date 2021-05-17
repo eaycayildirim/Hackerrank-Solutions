@@ -6,7 +6,7 @@ class Solution
     {
         long maximum = arr[0];
         long minimum = arr[0];
-        long total_array = arr[0];
+        long totalArray = arr[0];
 
         for (int i = 1; i < arr.Length; i++)
         {
@@ -15,10 +15,10 @@ class Solution
             if (arr[i] < minimum)
                 minimum = arr[i];
 
-            total_array += arr[i];
+            totalArray += arr[i];
         }
 
-        Console.WriteLine((total_array - maximum) + " " + (total_array - minimum));
+        Console.WriteLine((totalArray - maximum) + " " + (totalArray - minimum));
     }
 
     static void Main(string[] args)
