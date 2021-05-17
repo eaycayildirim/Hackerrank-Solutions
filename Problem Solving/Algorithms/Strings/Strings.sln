@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super Reduced String", "Super Reduced String\Super Reduced String.csproj", "{1C2F28DC-F7FC-44CE-A41F-3D81C6A3B8AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "Camel Case\Camel Case.csproj", "{E333D257-708D-4EA1-BFB6-F8F8A39AC756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camel Case", "Camel Case\Camel Case.csproj", "{E333D257-708D-4EA1-BFB6-F8F8A39AC756}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strong Password", "Strong Password\Strong Password.csproj", "{88238AA3-715A-4793-828B-7E0BEF7DBAC4}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank In A String", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangrams", "Pangrams\Pangrams.csproj", "{D487C4A5-6ED7-4D0B-8473-2F38A96EC142}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyString", "Funny String\Funny String.csproj", "{7068F0D4-F082-4ED7-AB36-261404CE78F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funny String", "Funny String\Funny String.csproj", "{7068F0D4-F082-4ED7-AB36-261404CE78F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemstones", "Gemstones\Gemstones.csproj", "{066568A4-6D2D-4269-8C0A-AE97E8D42183}"
 EndProject
@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Making Anagrams", "Making A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game Of Thrones1", "Game Of Thrones1\Game Of Thrones1.csproj", "{5D45810C-C303-4A69-91B0-00FAD663F3EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoStrings", "Two Strings\Two Strings.csproj", "{B6437081-790F-475A-B47C-108EFCAD21DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Strings", "Two Strings\Two Strings.csproj", "{B6437081-790F-475A-B47C-108EFCAD21DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringConstruction", "String Construction\String Construction.csproj", "{83962D54-7ED4-4261-9CC1-82F8D9B9302D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Construction", "String Construction\String Construction.csproj", "{83962D54-7ED4-4261-9CC1-82F8D9B9302D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weighted Uniform Strings", "Weighted Uniform Strings\Weighted Uniform Strings.csproj", "{A5C18713-F816-49C6-8420-A86CDAC9F396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{83962D54-7ED4-4261-9CC1-82F8D9B9302D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83962D54-7ED4-4261-9CC1-82F8D9B9302D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83962D54-7ED4-4261-9CC1-82F8D9B9302D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C18713-F816-49C6-8420-A86CDAC9F396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C18713-F816-49C6-8420-A86CDAC9F396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C18713-F816-49C6-8420-A86CDAC9F396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C18713-F816-49C6-8420-A86CDAC9F396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
