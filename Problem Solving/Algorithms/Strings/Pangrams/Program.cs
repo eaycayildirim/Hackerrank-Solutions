@@ -8,9 +8,9 @@ namespace Pangrams
         static string pangrams(string s)
         {
             Dictionary<char, int> dic = new Dictionary<char, int>();
-            string new_string = s.Replace(" ", "");
-            new_string = new_string.ToLower();
-            foreach (var letters in new_string)
+            string newString = s.Replace(" ", "");
+            newString = newString.ToLower();
+            foreach (var letters in newString)
             {
                 if (dic.ContainsKey(letters))
                     continue;

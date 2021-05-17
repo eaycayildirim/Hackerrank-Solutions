@@ -3,41 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperReducedString", "SuperReducedString\SuperReducedString.csproj", "{1C2F28DC-F7FC-44CE-A41F-3D81C6A3B8AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Super Reduced String", "Super Reduced String\Super Reduced String.csproj", "{1C2F28DC-F7FC-44CE-A41F-3D81C6A3B8AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "CamelCase\CamelCase.csproj", "{E333D257-708D-4EA1-BFB6-F8F8A39AC756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "Camel Case\Camel Case.csproj", "{E333D257-708D-4EA1-BFB6-F8F8A39AC756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongPassword", "StrongPassword\StrongPassword.csproj", "{88238AA3-715A-4793-828B-7E0BEF7DBAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strong Password", "Strong Password\Strong Password.csproj", "{88238AA3-715A-4793-828B-7E0BEF7DBAC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{E526679B-615D-48C7-9382-D535D50B7A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caesar Cipher", "Caesar Cipher\Caesar Cipher.csproj", "{E526679B-615D-48C7-9382-D535D50B7A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsExploration", "MarsExploration\MarsExploration.csproj", "{781B73F6-323C-448C-A71C-B218BEE874C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars Exploration", "Mars Exploration\Mars Exploration.csproj", "{781B73F6-323C-448C-A71C-B218BEE874C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankInAString", "HackerRankInAString\HackerRankInAString.csproj", "{9D5EDF29-B8BD-4820-893D-B65A640E6EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRank In A String", "HackerRank In A String\HackerRank In A String.csproj", "{9D5EDF29-B8BD-4820-893D-B65A640E6EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangrams", "Pangrams\Pangrams.csproj", "{D487C4A5-6ED7-4D0B-8473-2F38A96EC142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangrams", "Pangrams\Pangrams.csproj", "{D487C4A5-6ED7-4D0B-8473-2F38A96EC142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyString", "FunnyString\FunnyString.csproj", "{7068F0D4-F082-4ED7-AB36-261404CE78F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyString", "Funny String\Funny String.csproj", "{7068F0D4-F082-4ED7-AB36-261404CE78F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gemstones", "Gemstones\Gemstones.csproj", "{066568A4-6D2D-4269-8C0A-AE97E8D42183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemstones", "Gemstones\Gemstones.csproj", "{066568A4-6D2D-4269-8C0A-AE97E8D42183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlternatingCharacters", "AlternatingCharacters\AlternatingCharacters.csproj", "{E1ABA9C1-A570-47E1-BB81-36B9C4ECB9D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alternating Characters", "Alternating Characters\Alternating Characters.csproj", "{E1ABA9C1-A570-47E1-BB81-36B9C4ECB9D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautifulBinaryString", "BeautifulBinaryString\BeautifulBinaryString.csproj", "{DA501F67-0631-415A-B5AB-163D9BE74B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beautiful Binary String", "Beautiful Binary String\Beautiful Binary String.csproj", "{DA501F67-0631-415A-B5AB-163D9BE74B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLoveLetterMystery", "TheLoveLetterMystery\TheLoveLetterMystery.csproj", "{56151254-1F5A-4232-96E7-F68A1B953A34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Love Letter Mystery", "The Love Letter Mystery\The Love Letter Mystery.csproj", "{56151254-1F5A-4232-96E7-F68A1B953A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeIndex", "PalindromeIndex\PalindromeIndex.csproj", "{E091E267-76DE-4BE0-9606-16473B14D773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome Index", "Palindrome Index\Palindrome Index.csproj", "{E091E267-76DE-4BE0-9606-16473B14D773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{E0A31F80-5698-4F02-B4C4-F84F082DF337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagram", "Anagram\Anagram.csproj", "{E0A31F80-5698-4F02-B4C4-F84F082DF337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingAnagrams", "MakingAnagrams\MakingAnagrams.csproj", "{385968E2-7EBA-453A-A8BD-058E5893890F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Making Anagrams", "Making Anagrams\Making Anagrams.csproj", "{385968E2-7EBA-453A-A8BD-058E5893890F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfThrones1", "GameOfThrones1\GameOfThrones1.csproj", "{5D45810C-C303-4A69-91B0-00FAD663F3EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game Of Thrones1", "Game Of Thrones1\Game Of Thrones1.csproj", "{5D45810C-C303-4A69-91B0-00FAD663F3EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStrings", "TwoStrings\TwoStrings.csproj", "{B6437081-790F-475A-B47C-108EFCAD21DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoStrings", "Two Strings\Two Strings.csproj", "{B6437081-790F-475A-B47C-108EFCAD21DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConstruction", "StringConstruction\StringConstruction.csproj", "{83962D54-7ED4-4261-9CC1-82F8D9B9302D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringConstruction", "String Construction\String Construction.csproj", "{83962D54-7ED4-4261-9CC1-82F8D9B9302D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

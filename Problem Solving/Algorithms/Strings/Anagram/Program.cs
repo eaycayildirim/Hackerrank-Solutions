@@ -10,21 +10,21 @@ namespace Anagram
             int count = 0;
             if (s.Length % 2 == 0)
             {
-                string first_part = s.Substring(0, s.Length / 2);
-                string second_part = s.Substring(s.Length / 2, s.Length / 2);
+                string firstPart = s.Substring(0, s.Length / 2);
+                string secondPart = s.Substring(s.Length / 2, s.Length / 2);
                 Dictionary<char, int> dic = new Dictionary<char, int>();
-                for (int i = 0; i < second_part.Length; i++)
+                for (int i = 0; i < secondPart.Length; i++)
                 {
-                    if (dic.ContainsKey(second_part[i]))
-                        dic[second_part[i]]++;
+                    if (dic.ContainsKey(secondPart[i]))
+                        dic[secondPart[i]]++;
                     else
-                        dic.Add(second_part[i], 1);
+                        dic.Add(secondPart[i], 1);
                 }
-                for (int i = 0; i < first_part.Length; i++)
+                for (int i = 0; i < firstPart.Length; i++)
                 {
-                    if (dic.ContainsKey(first_part[i]) && dic[first_part[i]] > 0)
+                    if (dic.ContainsKey(firstPart[i]) && dic[firstPart[i]] > 0)
                     {
-                        dic[first_part[i]]--;
+                        dic[firstPart[i]]--;
                     }
                     else
                         count++;

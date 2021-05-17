@@ -7,18 +7,18 @@ namespace FunnyString
         static string funnyString(string s)
         {
             int[] differences = new int[s.Length - 1];
-            int[] rev_differences = new int[s.Length - 1];
-            char[] rev_string = s.ToCharArray();
-            Array.Reverse(rev_string);
+            int[] revDifferences = new int[s.Length - 1];
+            char[] revString = s.ToCharArray();
+            Array.Reverse(revString);
 
             for (int i = 0; i < s.Length - 1; i++)
             {
                 differences[i] = Math.Abs((char)s[i] - (char)s[i + 1]);
-                rev_differences[i] = Math.Abs((char)rev_string[i] - (char)rev_string[i + 1]);
+                revDifferences[i] = Math.Abs((char)revString[i] - (char)revString[i + 1]);
             }
             for (int i = 0; i < differences.Length; i++)
             {
-                if (differences[i] == rev_differences[i])
+                if (differences[i] == revDifferences[i])
                     continue;
                 else
                     return "Not Funny";

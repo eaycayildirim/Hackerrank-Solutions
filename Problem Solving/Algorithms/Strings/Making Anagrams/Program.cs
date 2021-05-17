@@ -28,10 +28,10 @@ namespace MakingAnagrams
         }
         static void Main(string[] args)
         {
-            string first_input = "cde";
-            string second_input = "abc";
+            string firstInput = "cde";
+            string secondInput = "abc";
 
-            Console.WriteLine(makingAnagrams(first_input, second_input));
+            Console.WriteLine(makingAnagrams(firstInput, secondInput));
         }
     }
 }

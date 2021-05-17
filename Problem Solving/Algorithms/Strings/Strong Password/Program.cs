@@ -7,10 +7,10 @@ namespace StrongPassword
         static int minimumNumber(int n, string password)
         {
             string numbers = "0123456789";
-            string lower_case = "abcdefghijklmnopqrstuvwxyz";
-            string upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            string special_characters = "!@#$%^&*()-+";
-            char[] char_array = password.ToCharArray();
+            string lowerCase = "abcdefghijklmnopqrstuvwxyz";
+            string upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string specialCharacters = "!@#$%^&*()-+";
+            char[] charArray = password.ToCharArray();
 
             int count = 4;
             int digits = 6 - n;
@@ -20,24 +20,24 @@ namespace StrongPassword
             bool special = false;
             bool number = false;
 
-            for (int i = 0; i < char_array.Length; i++)
+            for (int i = 0; i < charArray.Length; i++)
             {
                 if (numbers.IndexOf(password[i]) > -1 && !number)
                 {
                     count--;
                     number = true;
                 }
-                if (lower_case.IndexOf(password[i]) > -1 && !lower)
+                if (lowerCase.IndexOf(password[i]) > -1 && !lower)
                 {
                     count--;
                     lower = true;
                 }
-                if (upper_case.IndexOf(password[i]) > -1 && !upper)
+                if (upperCase.IndexOf(password[i]) > -1 && !upper)
                 {
                     count--;
                     upper = true;
                 }
-                if (special_characters.IndexOf(password[i]) > -1 && !special)
+                if (specialCharacters.IndexOf(password[i]) > -1 && !special)
                 {
                     count--;
                     special = true;

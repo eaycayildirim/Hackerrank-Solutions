@@ -6,19 +6,19 @@ namespace SuperReducedString
     {
         static string superReducedString(string s)
         {
-            string new_string = s;
-            for (int i = 0; i < new_string.Length - 1; i++)
+            string newString = s;
+            for (int i = 0; i < newString.Length - 1; i++)
             {
-                if (new_string[i] == new_string[i + 1])
+                if (newString[i] == newString[i + 1])
                 {
-                    new_string = new_string.Remove(i, 2);
+                    newString = newString.Remove(i, 2);
                     i = -1;
                 }
             }
-            if (new_string.Length == 0)
+            if (newString.Length == 0)
                 return "Empty String";
             else
-                return new_string;
+                return newString;
         }
         static void Main(string[] args)
         {

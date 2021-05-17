@@ -7,25 +7,25 @@ namespace TheLoveLetterMystery
         static int theLoveLetterMystery(string s)
         {
             int count = 0;
-            char[] rev_array = s.ToCharArray();
-            Array.Reverse(rev_array);
+            char[] revArray = s.ToCharArray();
+            Array.Reverse(revArray);
             for (int i = 0; i < s.Length / 2; i++)
             {
-                int number = Math.Abs(s[i] - rev_array[i]);
+                int number = Math.Abs(s[i] - revArray[i]);
                 for (int j = 0; j < number; j++)
                 {
-                    if (s[i] == rev_array[i])
+                    if (s[i] == revArray[i])
                         continue;
                     else
                     {
-                        if (s[i] < rev_array[i])
+                        if (s[i] < revArray[i])
                         {
-                            rev_array[i]--;
+                            revArray[i]--;
                             count++;
                         }
                         else
                         {
-                            rev_array[i]++;
+                            revArray[i]++;
                             count++;
                         }
                     }
