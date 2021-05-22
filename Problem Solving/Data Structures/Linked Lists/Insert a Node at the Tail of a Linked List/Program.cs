@@ -48,10 +48,8 @@ namespace InsertANodeAtTheTailOfALinkedList
         {
             SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
             if (head == null)
-            {
                 head = newNode;
-                return head;
-            }
+
             else
             {
                 SinglyLinkedListNode temp = head;
