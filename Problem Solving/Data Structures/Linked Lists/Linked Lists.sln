@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Print the Elements of a Linked List", "Print the Elements of a Linked List\Print the Elements of a Linked List.csproj", "{9477FFD6-BE87-4458-9B4A-5433ABAF7762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert a Node at the Tail of a Linked List", "Insert a Node at the Tail of a Linked List\Insert a Node at the Tail of a Linked List.csproj", "{13334DD6-0E46-49DE-B6AD-D7A72EB4D4FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert a Node at the Tail of a Linked List", "Insert a Node at the Tail of a Linked List\Insert a Node at the Tail of a Linked List.csproj", "{13334DD6-0E46-49DE-B6AD-D7A72EB4D4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert a Node at the Head of a Linked List", "Insert a Node at the Head of a Linked List\Insert a Node at the Head of a Linked List.csproj", "{B468CDFF-08D8-46DB-8E2F-E5FFF3AAB85C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{13334DD6-0E46-49DE-B6AD-D7A72EB4D4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13334DD6-0E46-49DE-B6AD-D7A72EB4D4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13334DD6-0E46-49DE-B6AD-D7A72EB4D4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B468CDFF-08D8-46DB-8E2F-E5FFF3AAB85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B468CDFF-08D8-46DB-8E2F-E5FFF3AAB85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B468CDFF-08D8-46DB-8E2F-E5FFF3AAB85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B468CDFF-08D8-46DB-8E2F-E5FFF3AAB85C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
