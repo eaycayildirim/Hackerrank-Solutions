@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert a Node at the Tail o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert a Node at the Head of a Linked List", "Insert a Node at the Head of a Linked List\Insert a Node at the Head of a Linked List.csproj", "{9E31B3A7-0DF6-4CC8-BD8E-430B59F4E6DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert a Node at a Specific Position", "Insert a Node at a Specific Position\Insert a Node at a Specific Position.csproj", "{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9E31B3A7-0DF6-4CC8-BD8E-430B59F4E6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E31B3A7-0DF6-4CC8-BD8E-430B59F4E6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E31B3A7-0DF6-4CC8-BD8E-430B59F4E6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
