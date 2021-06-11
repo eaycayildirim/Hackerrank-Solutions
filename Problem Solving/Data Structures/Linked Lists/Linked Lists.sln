@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert a Node at the Head o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert a Node at a Specific Position", "Insert a Node at a Specific Position\Insert a Node at a Specific Position.csproj", "{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete a Node", "Delete a Node\Delete a Node.csproj", "{C39E59ED-839C-496D-8D69-F286E55845C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA9C3DB-C7B7-475D-99CE-68FA6CD4D73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39E59ED-839C-496D-8D69-F286E55845C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39E59ED-839C-496D-8D69-F286E55845C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39E59ED-839C-496D-8D69-F286E55845C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39E59ED-839C-496D-8D69-F286E55845C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
